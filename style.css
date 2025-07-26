@@ -1,0 +1,178 @@
+
+canvas { 
+     width: 400px; 
+     height: 950px; 
+     display: block; 
+     margin: 0 auto; 
+     margin-right:;
+     background: #191717; 
+     border:#100c10 4px solid;
+     border-radius: 32px;
+}
+button {
+  background: #9b9881;
+  color: #fff;
+  font-family: 'Montserrat', Arial, sans-serif;
+  font-size: 1.12em;
+  padding: 14px 36px;
+  margin: 10px 9px;
+  border: none;
+  border-radius: 32px;
+  box-shadow: 0 3px 18px rgba(34,34,59,0.08);
+  cursor: pointer;
+  transition: 
+    background 0.19s,
+    transform 0.13s,
+    box-shadow 0.19s;
+  outline: none;
+  letter-spacing: 0.04em;
+}
+
+button:hover, button:focus {
+  background: #4a4e69;
+  transform: translateY(-2px) scale(1.052);
+  box-shadow: 0 6px 24px rgba(34,34,59,0.17);
+  color: #f7f7ff;
+}
+
+
+
+
+header {
+    height: max-content;
+    display: flex;
+    /* Use flexbox for header */
+    justify-content: space-between;
+    /* Space between hero and contact info */
+    align-items: center;
+    /* Center items vertically */
+    padding: 20px;
+    /* Padding for the header */
+
+    
+  width: 98vw;
+  /* Or: width: 98%; */
+  height: max-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  margin: 1vw auto;
+  box-sizing: border-box;
+  border-radius: 14px;
+  /* Optional: Add a box-shadow or border if you want */
+
+
+}
+
+.container {
+  width: 98vw;     /* Optional: fill nearly the full width */
+  height: 98vh;    /* 98% of the viewport height */
+  display: flex;
+  flex-direction: column;    /* or 'row', as needed */
+  justify-content: center;   /* Center children vertically */
+  align-items: center;       /* Center children horizontally */
+  padding: 20px;
+  margin: 1vw auto;
+  box-sizing: border-box;
+  border-radius: 14px;       /* Optional: rounded corners */
+  background: #fff;          /* Optional: background color */
+  /* Optional: add border or shadow */
+  box-shadow: 0 3px 16px rgba(0,0,0,0.08);
+  border: 2px solid #111314; /* Stylish pink border */
+  position: relative;        /* Helpful for absolute children */
+}
+
+
+
+
+.center-btn {
+  z-index: 2;
+  position: relative;
+   display: block;
+  margin: 32px auto 0 auto; /* Top margin optional */
+  padding: 18px 44px;
+  font-size: 1.3em;
+  background: #090909;
+  color: #fff;
+  border: none;
+  border-radius: 32px;
+  box-shadow: 0 5px 24px rgba(237,37,78,0.14);
+  cursor: pointer;
+  letter-spacing: 0.07em;
+  font-family: 'Montserrat', Arial, sans-serif;
+  transition: background 0.17s, transform 0.14s, box-shadow 0.2s;
+}
+.center-btn:hover, .center-btn:focus {
+  background: #717878;
+  color: #fff4f8;
+  transform: scale(1.07) translateY(-2px);
+  box-shadow: 0 9px 40px rgba(237,37,78,0.23);
+}
+
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;      /* Center horizontally */
+  justify-content: center;  /* Center vertically */
+  height: 100%;             /* Fill parent height if necessary */
+}
+
+.container {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 20px;
+  color: rgb(3, 3, 3);
+  text-align: center;
+  margin: 1vw auto;
+  height: 98vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /* Only here */
+  /* background: url('https://wallpapers.com/images/hd/photo-booth-background-91hgqf1mayqylwlq.jpg') no-repeat center center/cover; */
+
+  background: url('Photobooth_copy.png') no-repeat center center/cover;
+}
+
+/* Remove background from here */
+.hero {
+  width: 100%;
+  max-width: 800px;
+  padding: 40px;
+  background-color: rgba(241, 229, 229, 0.85); /* Optional: gives nice contrast */
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(30, 17, 107, 0.2);
+}
+
+.hero_photo {
+  width: 98%;
+  max-width: 800px;
+  padding: 40px;
+  
+  border-radius: 10px;
+}
+
+
+.container_2 {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 20px;
+  color: rgb(3, 3, 3);
+  text-align: center;
+  margin: 1vw auto;
+  height: 98vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /* Only here */
+  /* background: url('https://wallpapers.com/images/hd/photo-booth-background-91hgqf1mayqylwlq.jpg') no-repeat center center/cover; */
+
+  background: url('Photo_2.jpg') no-repeat center center/cover;
+}
+
